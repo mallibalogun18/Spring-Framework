@@ -13,12 +13,4 @@ public class SpringFrameworkApplication {
 		SpringApplication.run(SpringFrameworkApplication.class, args);
 	}
 
-	@RestController
-	public class Hello{
-
-		@RequestMapping
-		public String greet(){
-			return "Hello World";
-		}
-	}
 }
